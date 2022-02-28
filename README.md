@@ -1,6 +1,6 @@
 ## NextSite - Static export example
 
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/davittec/nextsite?label=version&logo=davit&sort=semver)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/davittec/nextsite-0.1.0?label=version&logo=davit&sort=semver)
 ![node-lts](https://img.shields.io/node/v/next?color=%23750e35&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/davittec/nextsite?color=%23750e35&style=flat-square)
 
