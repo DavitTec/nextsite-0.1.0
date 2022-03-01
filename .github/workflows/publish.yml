@@ -1,5 +1,5 @@
 ---
-name:                 Node.js CI
+name:                 build and deploy - github2
 
 on:
   push:
