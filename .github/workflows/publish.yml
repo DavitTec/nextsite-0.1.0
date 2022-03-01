@@ -19,9 +19,11 @@ jobs:
     steps:
     - name:           Checkout 🛎️
       uses:           actions/checkout@v2
+          
+    - name:           Setup node
+      uses:           actions/setup-node@v1
 
     - name:           Install packages and build
-      uses:           actions/setup-node@v1
       run:            |
          npm ci
          npm run export
@@ -29,10 +31,9 @@ jobs:
     - name:           adding noJekyll
       run:            touch ./out/.nojekyll
 
-    - name:           Deploy 🚀
-        uses:         JamesIves/github-pages-deploy-action@v4.2.5
-        
+    - name:           Deploy 🚀 
+      uses:           JamesIves/github-pages-deploy-action@v4.2.5
+      with:
         node-version: ${{ matrix.node-version }}
-        with:
-          branch:     gh-pages # The branch the action should deploy to.
-          folder:     out # The folder the action should deploy.
+        branch:     gh-pages # The branch the action should deploy to.
+        folder:     out # The folder the action should deploy.
