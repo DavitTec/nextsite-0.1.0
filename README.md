@@ -1,5 +1,5 @@
 ## NextSite - Static export example
-
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/davittec/nextsite-0.1.0/pages%20build%20and%20deployment/gh-pages)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/davittec/nextsite-0.1.0?label=version&logo=davit&sort=semver)
 ![node-lts](https://img.shields.io/node/v/next?color=%23750e35&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/davittec/nextsite?color=%23750e35&style=flat-square)
