@@ -26,6 +26,7 @@ jobs:
     - name:           Install packages and build
       run:            |
          npm ci
+         npm run build
          npm run export
 
     - name:           adding noJekyll
