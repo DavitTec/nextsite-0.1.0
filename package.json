@@ -9,7 +9,7 @@
   "scripts": {
     "predev": "next lint",
     "dev": "next dev",
-    "build": "npm run build"
+    "build": "npm run build",
     "export": "npm run export",
     "start": "next start"
   },
