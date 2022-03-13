@@ -27,7 +27,7 @@ and copy the following into the terminal. This will create a appropriate locatio
 ```bash
 mkdir -p "$HOME/GitHub/DavitTec/"
 git clone https://github.com/DavitTec/nextsite-0.1.0.git $HOME/GitHub/DavitTec/nextsite-0.1.0
-cd $HOME/GitHub/DavitTec/nextsite
+cd $HOME/GitHub/DavitTec/nextsite-0.1.0
 pwd
 
 ```
